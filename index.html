@@ -1,17 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>My first Html</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+  </style>
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <h>Hello, World</h>
-    <p>My name is kaisen..jujutsu kaisen</p>
+
+  <div class="p-5 bg-success text-white text-center">
+    <h1>My First Bootstrap 5 Page</h1>
+    <p>Resize this responsive page to see the effect!</p>
+  </div>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <img src="670710731.1.jpg" style="height: 200px;width: 200px;">
+        <p class="mt-2"><b>Full Name :</b> Phanukon Phimpha</p>
+        <p><b>Nickname :</b> Garfield</p>
+        <p><b>Date of Birth :</b> 03 / 09 / 2005</p>
+        <p><b>Age :</b> 19</p>
+        <p><b>Gender :</b> male</p>
+        <p><b>Nationality :</b> thailand</p>
+        <p><b>Phone Number :</b> 064-931-8305</p>
+        <p><b>IG/Facebook :</b> GillGarFar</p>
+        <P><b>Faculty/Major :</b> science/information technology</P>
+        <p><b>Student ID :</b> 670710731</p>
+        <p><b>Hobbies :</b> Gaming, Watch the movies</p>
+        <h3 class="mt-4">Some Links</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>TIMES TABLE</h2>
+        <h5>This is my times table.</h5>
+        <img src="timetable.png" style="height: 300px;width: 850px;">
+        <p>This is times table of term 2</p>
+        <p>On Monday I have morning and afternoon classes.
+          On Tuesday I only had the afternoon.
+          On Wednesday I only have morning classes.
+          On Thursday I have classes at both times.
+          As for Friday, I don't have class.</p>
+        <h2 class="mt-5">VOLUNTEER HOURS</h2>
+        <h5>Title description, Sep 2, 2020</h5>
+        <img src="ชั่วโมงจิตอาสา.png" style="height: 500px;width: 850px;">
+        <p>This is my Volunteer hours.</p>
+        <p>I completed about 9 volunteer activities and my total volunteer hours was 54 hours.</p>
+      </div>
+    </div>
+  </div>
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>Footer</p>
+  </div>
 </body>
 
 </html>
